@@ -28,7 +28,7 @@ def fibonacci_recursive(n: int) -> int:
     """
     Computes the n-th Fibonacci number using a recursive method.
     :param n: n-th Fibonacci number.
-    :return: The n-th Fobonacci number.
+    :return: The i-th Fobonacci number.
     """
     if n < 0:
         raise ValueError("n must be greater or equal to zero.")
